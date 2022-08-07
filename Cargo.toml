@@ -1,9 +1,15 @@
 [package]
 name = "discord-rpc-rs"
 version = "0.1.0"
+authors = ["xhayper <hayper1919@gmail.com>", "RoootTheFox <rooot@foxes4life.net>"]
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 tokio = "1.20.1"
+
+[target.'cfg(windows)'.dependencies]
+named_pipe = "0.4.1"
+
+[dependencies.uuid]
+version = "^0.6.2"
+features = ["v4"]
