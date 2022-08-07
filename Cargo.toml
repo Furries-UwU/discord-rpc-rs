@@ -2,6 +2,7 @@
 name = "discord-rpc-rs"
 version = "0.1.0"
 authors = ["xhayper <hayper1919@gmail.com>", "RoootTheFox <rooot@foxes4life.net>"]
+keywords = ["discord", "discord-rpc", "discord-ipc", "ipc", "rpc", "rich-presence"]
 edition = "2021"
 
 [dependencies]
